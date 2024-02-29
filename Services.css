@@ -72,7 +72,7 @@ ul {
     place-content: center;
     font-size: 2rem;
     font-weight: bold;
-    background: url(Images/fitman.jpg);
+    background: url(images/fitman.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position-x: -40px; */
@@ -85,7 +85,7 @@ ul {
     place-content: center;
     font-size: 2rem;
     font-weight: bold;
-    background: url(Images/nutrition\ 2.jpg);
+    background: url(images/nutrition\ 2.jpg);
     background-size: contain;
     /* background-position-x: -40px; */
 
@@ -98,7 +98,7 @@ ul {
     place-content: center;
     font-size: 2rem;
     font-weight: bold;
-    background: url(Images/virtual_assistant.jpg);
+    background: url(images/virtual_assistant.jpg);
     background-size: contain;
     background-position-x: -40px;
 
