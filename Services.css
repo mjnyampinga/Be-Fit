@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+   /*  color: aliceblue; */
+}
+
+html {
+    background-color: black;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 8%;
+}
+
+nav a {
+    text-decoration: none;
+    color: aliceblue;
+}
+nav p a {
+    text-decoration: none;
+    color: #FFF200;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.4rem;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.start {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    border: 1px solid aliceblue;
+    color: #FFF200;
+    padding: 3px 1.3rem;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    text-align: center;
+    font-weight: 500;
+}
+/* `                 */
+
+.main-section {
+    margin: 1px 8%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 50%;
+    height: 15rem;
+    background-color: aquamarine;
+}
+
+.fitness {
+    color: aliceblue;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background: url(Images/fitman.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position-x: -40px; */
+    
+}
+.nutrition {
+    color: aliceblue;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background: url(Images/nutrition\ 2.jpg);
+    background-size: contain;
+    /* background-position-x: -40px; */
+
+}
+
+.virtual {
+    color: aliceblue;
+    text-align: center;
+    display: grid;
+    place-content: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background: url(Images/virtual_assistant.jpg);
+    background-size: contain;
+    background-position-x: -40px;
+
+}
+
+.one {
+    background-color: rgb(187, 156, 84);
+    color: aliceblue;
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.onee {
+    background-color: rgb(159, 187, 84);
+    color: aliceblue;
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+.oneee {
+    background-color: rgb(84, 187, 153);
+    color: aliceblue;
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+
