@@ -5,9 +5,18 @@
     color: aliceblue;
 }
 
+
 html {
     background-color: black;
 }
+
+
+
+
+
+
+
+
 a:hover {
     text-decoration: underline;
 }
@@ -32,6 +41,7 @@ nav p a {
     font-size: 1.4rem;
 }
 
+
 ul {
     list-style: none;
     display: flex;
@@ -39,6 +49,7 @@ ul {
     align-items: center;
     gap: 2rem;
 }/* contact.css */
+
 
 /* Reset Styles */
 * {
