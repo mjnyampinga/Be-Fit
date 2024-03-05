@@ -1,15 +1,14 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Times New Roman', Times, serif;
-   /*  color: aliceblue; */
 }
 
 html {
     background-color: black;
+    overflow-x: hidden;
 }
-
 
 nav {
     display: flex;
@@ -22,6 +21,7 @@ nav a {
     text-decoration: none;
     color: aliceblue;
 }
+
 nav p a {
     text-decoration: none;
     color: #FFF200;
@@ -47,11 +47,10 @@ ul {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.heading{
+.heading {
     text-align: center;
     font-weight: 500;
 }
-/* `                 */
 
 .main-section {
     margin: 1px 8%;
@@ -60,37 +59,19 @@ ul {
 }
 
 .service {
-    width: 50%;
+    width: 100%; /* Change width to 100% for smaller screens */
     height: 15rem;
     background-color: aquamarine;
 }
 
-.fitness {
-    color: aliceblue;
-    text-align: center;
-    display: grid;
-    place-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-    background: url(Images/fitman.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position-x: -40px; */
-    
-}
-.nutrition {
-    color: aliceblue;
-    text-align: center;
-    display: grid;
-    place-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-    background: url(Images/nutrition\ 2.jpg);
-    background-size: contain;
-    /* background-position-x: -40px; */
-
+@media only screen and (min-width: 768px) {
+    .service {
+        width: 50%; /* Set width to 50% for screens wider than 768px */
+    }
 }
 
+.fitness,
+.nutrition,
 .virtual {
     color: aliceblue;
     text-align: center;
@@ -98,38 +79,41 @@ ul {
     place-content: center;
     font-size: 2rem;
     font-weight: bold;
-    background: url(Images/virtual_assistant.jpg);
-    background-size: contain;
-    background-position-x: -40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
+.fitness {
+    background-image: url(images/fitman.jpg);
+}
+
+.nutrition {
+    background-image: url(images/nutrition2.jpg);
+}
+
+.virtual {
+    background-image: url(images/virtual_assistant.jpg);
+}
+
+.one,
+.onee,
+.oneee {
+    color: aliceblue;
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+    font-size: 1.2rem;
+    text-align: justify;
 }
 
 .one {
     background-color: rgb(187, 156, 84);
-    color: aliceblue;
-    display: grid;
-    place-content: center;
-    padding: 2rem;
-    font-size: 1.2rem;
-    text-align: justify;
 }
+
 .onee {
     background-color: rgb(159, 187, 84);
-    color: aliceblue;
-    display: grid;
-    place-content: center;
-    padding: 2rem;
-    font-size: 1.2rem;
-    text-align: justify;
 }
+
 .oneee {
     background-color: rgb(84, 187, 153);
-    color: aliceblue;
-    display: grid;
-    place-content: center;
-    padding: 2rem;
-    font-size: 1.2rem;
-    text-align: justify;
 }
-
-

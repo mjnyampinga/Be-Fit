@@ -38,9 +38,6 @@ document.addEventListener('DOMContentLoaded', function() {
             form.reset();
 
             alert('Thank you for contacting us, we will get back to you soon!');
-        } else {
-            // Local storage is not supported
-            alert('Sorry, your browser does not support local storage.');
-        }
+        } 
+        });
     });
-});
