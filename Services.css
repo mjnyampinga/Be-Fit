@@ -5,10 +5,12 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+
 html {
     background-color: black;
     overflow-x: hidden;
 }
+
 
 nav {
     display: flex;
@@ -17,10 +19,12 @@ nav {
     margin: 15px 8%;
 }
 
+
 nav a {
     text-decoration: none;
     color: aliceblue;
 }
+
 
 nav p a {
     text-decoration: none;
@@ -29,6 +33,7 @@ nav p a {
     font-size: 1.4rem;
 }
 
+
 ul {
     list-style: none;
     display: flex;
@@ -36,6 +41,7 @@ ul {
     align-items: center;
     gap: 2rem;
 }
+
 
 .start {
     font-weight: bolder;
@@ -47,10 +53,12 @@ ul {
     font-family: 'Times New Roman', Times, serif;
 }
 
+
 .heading {
     text-align: center;
     font-weight: 500;
 }
+
 
 .main-section {
     margin: 1px 8%;
@@ -58,44 +66,20 @@ ul {
     flex-wrap: wrap;
 }
 
+
 .service {
     width: 100%; /* Change width to 100% for smaller screens */
     height: 15rem;
     background-color: aquamarine;
 }
 
-<<<<<<< HEAD
+
 @media only screen and (min-width: 768px) {
     .service {
         width: 50%; /* Set width to 50% for screens wider than 768px */
     }
-=======
-.fitness {
-    color: aliceblue;
-    text-align: center;
-    display: grid;
-    place-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-    background: url(images/fitman.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    /* background-position-x: -40px; */
-    
 }
-.nutrition {
-    color: aliceblue;
-    text-align: center;
-    display: grid;
-    place-content: center;
-    font-size: 2rem;
-    font-weight: bold;
-    background: url(images/nutrition\ 2.jpg);
-    background-size: contain;
-    /* background-position-x: -40px; */
 
->>>>>>> 84dfc380fcc9bc2fd7be1ad13a34046077de0b7d
-}
 
 .fitness,
 .nutrition,
@@ -106,27 +90,25 @@ ul {
     place-content: center;
     font-size: 2rem;
     font-weight: bold;
-<<<<<<< HEAD
     background-size: cover;
     background-repeat: no-repeat;
 }
-=======
-    background: url(images/virtual_assistant.jpg);
-    background-size: contain;
-    background-position-x: -40px;
->>>>>>> 84dfc380fcc9bc2fd7be1ad13a34046077de0b7d
+
 
 .fitness {
     background-image: url(images/fitman.jpg);
 }
 
+
 .nutrition {
     background-image: url(images/nutrition2.jpg);
 }
 
+
 .virtual {
     background-image: url(images/virtual_assistant.jpg);
 }
+
 
 .one,
 .onee,
@@ -139,14 +121,17 @@ ul {
     text-align: justify;
 }
 
+
 .one {
     background-color: rgb(187, 156, 84);
 }
+
 
 .onee {
     background-color: rgb(159, 187, 84);
 }
 
+
 .oneee {
     background-color: rgb(84, 187, 153);
-}
+} 
